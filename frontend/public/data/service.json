@@ -1,0 +1,24 @@
+{ 
+  "data": [
+      {
+        "image": "/images/services/port-icd.jpg",
+        "label": "Port & ICD",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+      },
+      {
+        "image": "/images/services/port-icd.jpg",
+        "label": "Import-Export",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+      },
+      {
+        "image": "/images/services/fulfillment-warehouse.jpg",
+        "label": "Fulfillment & Warehouse",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+      },
+      {
+        "image": "/images/services/trucking.jpg",
+        "label": "Trucking",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+      }
+  ]
+}

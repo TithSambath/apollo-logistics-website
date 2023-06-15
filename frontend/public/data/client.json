@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "/clients/brown.png"
+    },
+    {
+      "id": 2,
+      "image": "/clients/rma.png"
+    },
+    {
+      "id": 3,
+      "image": "/clients/fun-food.png"
+    },
+    {
+      "id": 4,
+      "image": "/clients/e-solution.png"
+    },
+    {
+      "id": 5,
+      "image": "/clients/pro-vida.png"
+    },
+    {
+      "id": 6,
+      "image": "/clients/baby-outlet.png"
+    },
+    {
+      "id": 7,
+      "image": "/clients/ggear-group.png"
+    },
+    {
+      "id": 8,
+      "image": "/clients/youadme.png"
+    }
+  ]
+}

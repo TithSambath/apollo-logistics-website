@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('/fonts/Noto_Sans/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NotoSans';
+  src: url('/fonts/Noto_Sans/NotoSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/*-------- Scroll To Top Style Css --------*/
+.scroll-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: -60px;
+  z-index: 999;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.03);
+  display: block;
+  padding: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 30%;
+  text-align: center;
+  font-size: 25px;
+  line-height: 60px;
+  border: 0;
+  cursor: pointer;
+  opacity: 1 !important;
+  visibility: hidden;
+  background-color: #F6921E;
+  background-size: 200% auto;
+  background-position: left center;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 479.98px) {
+  .scroll-to-top {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+  }
+}
+.scroll-to-top.show {
+  visibility: visible;
+  opacity: 0.8;
+  bottom: 60px;
+}
+.scroll-to-top i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.scroll-to-top .arrow-top {
+  transform: translate(-50%, -50%);
+}
+.scroll-to-top .arrow-bottom {
+  transform: translate(-50%, 80px);
+}
+
+/* pagination slide */
+.slide-pagination .splide__pagination__page {
+  background: #fff;
+  transform: scale(1.4);
+  height: 10px;
+  margin: 7px;
+  width: 10px;
+}
+.slide-pagination .splide__pagination__page.is-active {
+  background: #F6921E;
+  border-radius: 3.5px;
+  height: 7px;
+  margin: 7px;
+  transition: .1s;
+  transition-delay: .0.2s;
+  opacity: 1;
+  width: 22px;
+}
+
+
+/* pagination slide */
+.client-pagination .splide__pagination__page {
+  background: #D9D9D9;
+  transform: scale(1.4);
+  height: 10px;
+  margin: 7px;  
+  width: 10px;
+}
+.client-pagination .splide__pagination__page.is-active {
+  background: #F6921E;
+}

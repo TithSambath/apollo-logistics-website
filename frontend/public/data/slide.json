@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "/images/container.png",
+      "title": "Moving Products Across All Borders",
+      "subtitle": "Trust, Reliable, Lower Cost and Easy.",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati iure ea illo facere molestiae? Dignissimos.",
+      "btnName": "View Service",
+      "btnUrl": "https://advan-auto.com/"
+    },
+    {
+      "id": 2,
+      "image": "/images/container.png",
+      "title": "Moving Products Across All Borders",
+      "subtitle": "Trust, Reliable, Lower Cost and Easy.",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati iure ea illo facere molestiae? Dignissimos.",
+      "btnName": "View Service",
+      "btnUrl": "https://advan-auto.com/"
+    }
+  ]
+}

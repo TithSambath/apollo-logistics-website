@@ -1,0 +1,20 @@
+{
+  "title": "Why Choose Us",
+  "benefits": [
+    {
+      "id": 1,
+      "title": "Trust",
+      "description": "Lorem ipsum dolor sit amet consectetur. Justo sed volutpat tellus in et senectus enim viverra pellentesque. Nunc et pretium id nisi blandit arcu."
+    },
+    {
+      "id": 2,
+      "title": "Reliable",
+      "description": "Lorem ipsum dolor sit amet consectetur. Justo sed volutpat tellus in et senectus enim viverra pellentesque. Nunc et pretium id nisi blandit arcu."
+    },
+    {
+      "id": 2,
+      "title": "Low cost",
+      "description": "Lorem ipsum dolor sit amet consectetur. Justo sed volutpat tellus in et senectus enim viverra pellentesque. Nunc et pretium id nisi blandit arcu."
+    }
+  ]
+}

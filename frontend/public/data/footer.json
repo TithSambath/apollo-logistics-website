@@ -1,0 +1,14 @@
+{
+  "slogan": "Trust, Reliable, Lower cost and Easy.",
+  "address": "No 4B (SKD), National Road #5, Sangkat Km 6 Khan Russey Keo, Phnom Penh, Cambodia",
+  "openHour": "Mon-Sat: 8 am - 5 pm",
+  "phone": "010 225 444",
+  "socials": [
+    { "link": "", "type": "Facebook" },
+    { "link": "", "type": "Telegram" }
+  ],
+  "downloads": [
+    { "link": "http://apple.com", "store": "appstore" },
+    { "link": "http://playstore.com", "store": "googleplay" }
+  ]
+}

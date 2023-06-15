@@ -1,0 +1,18 @@
+version: '3.5'
+
+services:
+  apollo-logistics-website-nextjs:
+    image: apollo-logistics-website-nextjs
+    container_name: apollo-logistics-website-nextjs
+    restart: 'always'
+    logging:
+      options:
+        max-size: '10m'
+    build:
+      context: .
+    ports:
+      - '${PORT}:${PORT}'
+    volumes:
+      - ./.next/cache/images:/app/.next/cache/images
+    env_file:
+      - .env
