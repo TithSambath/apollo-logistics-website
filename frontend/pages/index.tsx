@@ -14,10 +14,15 @@ import service from '@public/data/service.json';
 import client from '@public/data/client.json';
 import benefit from '@public/data/benefit.json';
 import footer from '@public/data/footer.json';
+import { SEO } from 'components/SEO';
 
 const Page: NextPage = () => {
   return (
     <>
+      <SEO
+        title="Apollo eLogistic"
+        imageUrl='/images/container.png'
+      />
       <Slider data={slide.data} />
       <About data={about} />
       <Services data={service.data} />
